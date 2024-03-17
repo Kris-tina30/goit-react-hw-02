@@ -3,11 +3,11 @@ import React from 'react';
 const Feedback = ({ values, total, positive }) => {
   return (
     <ul>
-      <li>good: {values.good}</li>
-      <li>neutral: {values.neutral}</li>
-      <li>bad: {values.bad}</li>
-      <li>total: {total}</li>
-      <li>positive: {positive} %</li>
+      <li>Good: {values.good}</li>
+      <li>Neutral: {values.neutral}</li>
+      <li>Bad: {values.bad}</li>
+      <li>Total: {total}</li>
+      <li>Positive: {positive} %</li>
     </ul>
   );
 };
